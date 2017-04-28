@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Mentoring</title>
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/truthful.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/github.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+
+        <section data-background="#ffffff" data-background-transition="zoom" data-transition="zoom" data-transition-speed="fast">
+          <h1>Mentoring</h1>
+          <p>
+          <small><a href="http://treyhunner.com" rel="author">Trey Hunner</a> / <a href="https://twitter.com/treyhunner">@treyhunner</a> / Python &amp; Django trainer</small>
+          </p>
+          <aside class="notes" data-markdown>
+            I'm Trey.  I have taught Python to a lot of people.  I've volunteered as a coach at over a dozen programming workshops.  And for a living I do corporate training in Python and Django.
+          </aside>
+        </section>
+
+        <section>
+          <h2>Focus on the task at hand</h2>
+          <ul>
+            <li>Avoid pointing out issues that aren't relevant</li>
+            <li>Don't nitpick over code style unless you're asked to</li>
+            <li>Focus on the immediate task, not everything that's wrong</li>
+            <li>Ask what is expected and run the code together to see what actually happens</li>
+          </ul>
+          <aside class="notes" data-markdown>
+            - If you're helping debug code that doesn't do the right thing or doesn't look pretty, don't point out anything that is not immediately relevant
+            - Don't discuss code style unless you're asked about code style
+            - If a learner asks "what's wrong" and you see things that are wrong, don't immediately mention everything you see that could be wrong.
+            - Ask them to tell you what they expected to see and show you what they're actually seeing and then step through the code aloud together.
+            - Don't make assumptions and give out answers.  Work through answers in steps by troubleshooting and walking through the behavior together.
+          </aside>
+        </section>
+
+        <section>
+          <h2>Be deliberate and positive</h2>
+          <ul>
+            <li>Speak slowly and try to enunciate well</li>
+            <li>Be careful with words: don't say "obviously" or "it's easy"</li>
+            <li>Be on the same level: sit or squat instead of hovering</li>
+          </ul>
+          <aside class="notes" data-markdown>
+            - Speak slowly and clearly
+            - Be deliberate and cautious with your word choice.  Don't say "obviously", "you just", or "it's easy"
+            - Be deliberate about your composure.  Try not to hover behind.  Squat down next to learners, pull up a chair and sit side-by-side.
+            - Try to lessen any perceptions that you are above your learners
+            - Be positive and encouraging.  Congratulate learners are their accomplishments.
+            - Take everything step-by-step.  If you don't see movement five steps forward that's okay.  Baby steps are perfectly fine.
+          </aside>
+        </section>
+
+        <section>
+          <h2>Supporter, not super hero</h2>
+          <ul>
+            <li>Dethrone yourself: be a helper more than an expert</li>
+            <li>Keep your learner in control: don't touch their keyboard!</li>
+            <li>Don't tell, show/do together</li>
+            <li>Walk through error messages together</li>
+            <li>Encourage looking it up: "I don't know, let's go to Google"</li>
+          </ul>
+          <aside class="notes" data-markdown>
+            - You want to make sure your learner sees you less like an expert and more like a friendly helper.
+            - Always have your learner in control: no touching the keyboard and no backseat driving.
+            - Don't point out errors immediately.  Walk through the error messages and step through the code with them.
+            - Encourage looking things up.
+          </aside>
+        </section>
+
+        <section style="text-align: left;" data-background="#663399" data-background-transition="slide" data-transition="slide">
+          <h1>Final</h1>
+          <p>
+          <small><a href="http://treyhunner.com">Trey Hunner</a> / <a href="https://twitter.com/treyhunner">@treyhunner</a></small>
+          </p>
+          <p>
+          <small>
+            Technical trainer
+            <br>
+            <a href="http://truthful.technology">http://truthful.technology</a>
+          </small>
+          </p>
+          <p>
+          <img src="logo.svg" class="no-style logo">
+          </p>
+          <aside class="notes" data-markdown>
+            Any questions?
+          </aside>
+        </section>
+
+      </div>
+    </div>
+
+    <script src="lib/js/head.min.js"></script>
+    <script src="js/reveal.js"></script>
+
+    <script>
+      // More info https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        history: true,
+
+        // More info https://github.com/hakimel/reveal.js#dependencies
+        dependencies: [
+          { src: 'plugin/markdown/marked.js' },
+          { src: 'plugin/markdown/markdown.js' },
+          { src: 'plugin/notes/notes.js', async: true },
+          { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+        ]
+      });
+    </script>
+  </body>
+</html>
